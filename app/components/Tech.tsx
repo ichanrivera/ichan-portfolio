@@ -115,7 +115,7 @@ export default function TechStackSection() {
     }
 
     return (
-        <section className="relative overflow-hidden bg-black px-6 py-28 text-white">
+        <section id="stack" className="relative overflow-hidden bg-black px-6 py-28 text-white">
             <div className="mx-auto max-w-7xl">
                 {/* HEADER */}
                 <div className="mb-16 max-w-3xl">
