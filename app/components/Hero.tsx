@@ -39,13 +39,20 @@ export default function Hero() {
                     >
                         View Projects
                     </a>
-
-                    <Link
+                    <a
+                        href="/ChristianRivera-Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-full border border-white/20 px-8 py-4 font-medium text-white transition hover:border-white hover:bg-white/10"
+                    >
+                        Download Resume
+                    </a>
+                    {/* <Link
                         href="/resume.pdf"
                         className="rounded-full border border-white/20 px-8 py-4 font-medium text-white transition hover:border-white hover:bg-white/10"
                     >
                         Download Resume
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </section>
